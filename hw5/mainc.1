@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int a=7;
+    int b,c;
+    for (b = 1; b <= a; b++){
+        for (c = 1; c <= a; c++) {
+            if (c <= (a-b)){
+                printf(" ");
+            }
+            else{
+                printf("%d ", b);
+            }   
+        }
+        printf("\n");
+    }
+    return 0;
+}
